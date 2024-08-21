@@ -1,0 +1,121 @@
+/* Selector de clase para la navegación */
+.nav a {
+    text-decoration: none; 
+    color: #007BFF; 
+    font-weight: bold; 
+    font-size: 18px; 
+}
+
+.nav a:hover {
+    color: #0056b3; 
+}
+
+/* Selector de etiqueta para encabezados */
+header h1 {
+    font-family: 'Arial', sans-serif; 
+    text-align: center; 
+    color: #333; 
+}
+
+/* Selector de clase para secciones */
+section {
+    background-color: #f5f5f5; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border: 1px solid #ddd; 
+}
+
+/* Selector de etiqueta para párrafos */
+p {
+    font-family: 'Georgia', serif; 
+    line-height: 1.6; 
+    color: #555; 
+}
+
+/* Selector de etiqueta para la tabla */
+table {
+    width: 100%; 
+    border-collapse: collapse;
+    margin-bottom: 20px; 
+}
+
+table, th, td {
+    border: 1px solid #ddd; 
+}
+
+th, td {
+    padding: 10px; 
+    text-align: left; 
+}
+
+th {
+    background-color: #007BFF; 
+    color: #fff; 
+}
+
+/* Selector de clase para imágenes */
+section img {
+    float: left; 
+    margin-left: 20px; 
+    border: 2px solid #ddd; 
+}
+
+/*Formulario*/
+
+/* Estilo para el encabezado */
+h1 {
+    font-family: Arial, sans-serif;
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Estilo para el formulario */
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #2c3e50;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+}
+
+/* Estilo para las etiquetas y campos de entrada */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #34495e;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para el botón de envío */
+input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo para los botones de radio y checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
